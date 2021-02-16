@@ -1,0 +1,16 @@
+.Hole {
+    padding: 5px;
+    margin: 1px;
+    min-width: 30px;
+    min-height: 30px;
+    border: 1px solid lightblue;
+}
+
+.Hole div {
+    position: relative;
+    min-width: 30px;
+    min-height: 30px;
+    border-radius: 4px;
+    top: -400px;
+    transition: transform 0.5s;
+}
